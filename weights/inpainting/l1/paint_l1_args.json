@@ -1,0 +1,21 @@
+{
+    "run_name": "paint-full_train-gamma_1_1-tanh-l1-norm_in-offset_1_3_5_7-lr_5_4-batch_16-epoch_100",
+    "gt_data": "/home/neeloyc2/iccp/terra_processed_jose_data-7_2_2024-neural_fill_100_100",
+    "proj_data": "/home/neeloyc2/iccp/delayed_reprojections-terra_processed_jose_data-7_2_2024-neural_fill_100_100",
+    "gamma_sub_folder": "pulsar_gamma_1e-1",
+    "debug": false,
+    "model_act": "tanh",
+    "loss": "l1",
+    "norm_input": true,
+    "offsets": [
+        1,
+        3,
+        5,
+        7
+    ],
+    "lr": 0.0005,
+    "batch_size": 16,
+    "num_epochs": 100,
+    "save_freq": 10,
+    "freeze_nav": false
+}

@@ -1,0 +1,2 @@
+depth_anything_v2_metric_vkitti_vits.pth filter=lfs diff=lfs merge=lfs -text
+depth_anything_v2_metric_terra_vits.pth filter=lfs diff=lfs merge=lfs -text
