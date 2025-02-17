@@ -77,8 +77,11 @@ Below, we give a high-level overview of the directory structure of our project.
       ```
 
 ## Collecting Offline Dataset
-At this time, we are not planning to release the dataset we collected for training and evaluation. 
-However, we provide instructions for how to curate your own dataset containing RGB, depth, and pose frames.
+
+Our dataset is released online and can be downloaded [here](https://uofi.box.com/s/arc2wswqfk0ksld6zovexlj3eayiv20o).
+We generated our dataset by collecting samples from the Terrasentia Dataset found [here](https://github.com/jrcuaranv/terrasentia-dataset).
+
+We also provide instructions for how to curate your own dataset containing RGB, depth, and pose frames.
 Follow the instructions [here](ros/catkin_ws/src/data_collection/README.md) to collect your own dataset.
 
 ## Training and Evaluating Depth Models
