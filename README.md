@@ -1,6 +1,11 @@
 # Project Code for *Towards Real-Time Generation of Delay-Compensated Video Feeds for Outdoor Mobile Robot Teleoperation*
 
-**Note:** This repository contains the code for our [ICRA 2025](https://2025.ieee-icra.org/) paper. For more details, please refer to the [project website](https://sites.google.com/illinois.edu/comp-teleop) and [arXiv preprint](https://arxiv.org/abs/2409.09921).
+**Note:** This repository contains the code for our [ICRA 2025](https://2025.ieee-icra.org/) paper. For more details, please refer to the [project website](https://sites.google.com/illinois.edu/comp-teleop) and [arXiv preprint](https://arxiv.org/abs/2409.09921). For issues, contact Neeloy Chakraborty at neeloyc2@illinois.edu.
+
+<div align="center">
+    <img src="figures/offline.gif" height="240" alt="Offline evaluation of our method compared with baselines on a middle stage growth video.">
+    <img src="figures/online.gif" height="240" alt="Real-time online evaluation of our method on an early stage growth video.">
+</div>
 
 ## Abstract
 
