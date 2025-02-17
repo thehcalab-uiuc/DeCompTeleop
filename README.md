@@ -62,6 +62,9 @@ Below, we give a high-level overview of the directory structure of our project.
     - Follow the instructions at [https://wiki.ros.org/noetic/Installation/Ubuntu](https://wiki.ros.org/noetic/Installation/Ubuntu) to install ROS
     - (Optional) Install RTAB-MAP by following instructions [here](https://github.com/introlab/rtabmap_ros#rtabmap_ros)
 - Clone repository and setup ROS workspace
+    - Ensure GIT LFS is installed
+        - To download weights alongside code, run `git lfs install`
+        - To ignore weights and only pull code, run `git lfs install --skip-smudge`
     - ```
       git clone https://gitlab.engr.illinois.edu/hubris/decompteleop.git
       cd decompteleop/ros/catkin_ws
