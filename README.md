@@ -71,8 +71,8 @@ Below, we give a high-level overview of the directory structure of our project.
         - To download weights alongside code, run `git lfs install`
         - To ignore weights and only pull code, run `git lfs install --skip-smudge`
     - ```
-      git clone https://gitlab.engr.illinois.edu/hubris/decompteleop.git
-      cd decompteleop/ros/catkin_ws
+      git clone https://github.com/thehcalab-uiuc/DeCompTeleop.git
+      cd DeCompTeleop/ros/catkin_ws
       catkin make
       ```
 
